@@ -1,0 +1,70 @@
+body {
+    background: wheat;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    grid-gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerItems {
+    display: flex;
+    grid-gap: 45px;
+    font-weight: bold;
+}
+
+.headFoot {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.box {
+    color: white;
+    padding: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    font-weight: 700;
+}
+
+.hero {
+    background: red;
+}
+
+aside {
+    background: rgb(0 130 153);
+}
+
+article {
+    background: rgb(0 153 105);
+}
+
+section  {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    gap: 20px;
+}
+
+.bigBoxes {
+    display: grid;
+    grid-template-columns: 35% 1fr;
+    min-height: 590px;
+    gap: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
