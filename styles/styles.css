@@ -68,3 +68,16 @@ footer {
     display: flex;
     justify-content: space-between;
 }
+
+@media (max-width: 975px) {
+    .bigBoxes {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 845px) {
+    nav {
+        flex-direction: column;
+        grid-gap: 15px;
+    }
+}
